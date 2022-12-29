@@ -1,0 +1,351 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Inicio Header */
+
+header{
+    background-color: #353a40;
+
+}
+
+
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+/* .navbar-toggler-icon{
+    color: white;
+    border-style:dotted;
+    border-width: 0.1em;
+    background-blend-mode: color;
+    
+} */
+
+.navbar-toggler{
+    color: white;
+    font-size: x-small;
+    border-color: chartreuse;
+    text-align: center;
+}
+
+.nav-link{
+    font-size: x-small;
+}
+
+.navbar-brand{
+    font-size: small;
+    color: white;
+}
+
+.nav-link{
+    color: #29a345;
+
+}
+
+.active{
+    color: white;
+}
+
+#opcion{
+    color: #9a9ca1;
+}
+
+#comprar{
+    color: #29a345;
+}
+
+/* Fin Header */
+/*Inicio de Main*/
+main {
+    height: auto;
+    margin-left: 0;
+}
+.main-imagenes{
+    position: relative;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+
+.carousel-item{
+    filter: brightness(0.5);
+}
+
+.texto-encima{
+    color: white;
+    width: 50%;
+    height: 500px;
+    max-height: 100%;
+    overflow: auto;
+    font-size: small;
+    background-color: transparent;
+    display: inline-block;
+    position:absolute;
+    right: 8%;
+    text-align: right;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    overflow: auto;
+    
+}
+
+.badge-uno{
+    background-color: transparent;
+    font-weight: normal;
+    color: white;
+    padding: 0.3rem 0.6rem 0.2rem 0.6rem;
+    border-color: white;
+    border-style: solid;
+    border-width: 0.05rem;
+    border-radius: 0.3rem;
+    
+}
+
+.badge-dos {
+    background-color: #29a744;
+    font-weight: normal;
+    color: white;
+    padding: 0.3rem 0.6rem 0.2rem 0.6rem;
+    border: transparent;
+    border-radius: 0.3rem;    
+
+}
+
+.card-group{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    margin: 20px;
+    
+}
+
+.oradores {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+h4{
+    margin: 0px;
+    padding: 0px;
+}
+
+.p-oradores {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding: 0px;
+    font-size: xx-small;
+}
+
+.card-text { 
+    font-size: 0.6em;
+}
+
+.card-body{
+    padding: 13px;
+}
+
+.bsas-octubre{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.bsas-octubre img{
+    width: 50%;
+    margin: 1px;
+}
+
+.bsas-octubre-text {
+    width: 50%;
+    color: white;
+    background-color: #353a40;
+    padding: 20px;
+    font-size:xx-small;
+    margin: 1px;
+
+}
+
+.badge-tres{
+    background-color: transparent;
+    font-weight: normal;
+    color: white;
+    padding: 0.3rem 0.6rem 0.2rem 0.6rem;
+    border-color: white;
+    border-style: solid;
+    border-width: 0.05rem;
+    border-radius: 0.3rem;
+}
+
+.ser-orador {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ser-orador p{
+    margin-bottom: 0px;
+    margin-top: 10px;
+    padding: 0px;
+    font-size: xx-small;
+}
+
+.ser-orador h6{
+    font-style: normal;
+    font-size: small;
+}
+
+.postulacion div{
+    display: flex;
+    justify-content: center;
+
+}
+
+input{
+    margin: 1%;
+    width: 30%;
+    padding-left: 1%;
+    font-size: small;
+}
+
+#charla {
+    width: 62%;
+    padding-left: 1%;
+}
+
+form p{
+    padding-left: 19%;
+}
+
+#enviar{
+    margin-left:  19%;
+    width: 62%;
+    padding-left: 1%;
+    text-align: center;
+    background-color: #96c93e;
+    border-color: transparent;
+    color: white;
+}
+
+/* inicio Main de tickets.html */
+/* Cards */
+.row{
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.card {
+    text-align: center;
+    
+}
+.col{
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.incompleto {
+    color: red;
+    font-size: x-small;
+    margin-left: 8px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.estudiante{
+    border-color: #047dfe;
+}
+.trainee {
+    border-color: #96d5df;  
+}
+.junior {
+    border-color: #ffc10a;
+}
+.title-ventas{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.col-form{
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.form-large .form-control{
+    margin-right: 18px;
+    margin-left: 8px;
+
+}
+.form-large{
+    padding-left: 2px;
+    padding-right: 14px;
+}
+
+.col h6{
+    padding-left: 10px;
+}
+.total{
+    margin: 20px 0;
+    background-color: #cce5ff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.btn-ticket{
+    background-color: #97c93e;
+    color: white;
+    width: 100%;
+    margin-bottom: 20px;
+}
+/* fin de main tickets.html */
+table {
+    max-width: 100vw;
+}
+footer{
+    background-color: #1d3947;
+    margin: 0px;
+    height: auto;
+    align-items: center;
+    margin-top: auto;
+}
+
+.contenedor-footer{
+    list-style-type: none;
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.form-label {
+    width: 2rem;
+}
+
+.main-form {
+    margin:5rem;
+}
+

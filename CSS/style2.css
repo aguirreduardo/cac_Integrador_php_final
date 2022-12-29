@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    position: relative;
+    padding-bottom: 10rem;
+    /* display: flex;
+    flex-direction: column; */
+    min-height: 100vh;
+}
+
+.table {
+    max-width: 100vw;
+    font-size:xx-small;
+}
+
+.dropdown-menu {
+    background-color: #353a40;
+    padding-left: 3px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (min-width:800px){
+    .table {
+        font-size: medium;
+    }
+    .registro {
+        padding: 1rem;
+    }
+}
